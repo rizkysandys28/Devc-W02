@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kalkulator CoHive</title>
+</head>
+
+
+<body>
+    
+<h1 style="color:#2a5858;">CoHive Kalkulator</h1>
+<form name="Kalk">
+    <table border = 5>
+         
+
+        <tr style="height:50px; width:50px; ">
+            <td>
+                <input style="height:50px; width:210px" type="text" name="input" size="15" ><br>
+            </td>
+        </tr>
+
+        <td>
+            <input type="button" value="C" style="height:50px; width:50px; color:#ff6820" onclick="Kalk.input.value =''"/>   
+            <input type="button" value="0" style="height:50px; width:50px; color:#ff6820" onclick="Kalk.input.value +='0'"/>
+            <input type="button" value="=" style="height:50px; width:50px; color:#ff6820" onclick="Kalk.input.value = eval(Kalk.input.value)"/>
+            <input type="button" value="+" style="height:50px; width:50px; color:#ff6820" onclick="Kalk.input.value +='+'"/><br>
+            <input type="button" value="9" style="height:50px; width:50px; color:#f42d2d" onclick="Kalk.input.value +='9'"/>
+            <input type="button" value="8" style="height:50px; width:50px; color:#f42d2d" onclick="Kalk.input.value +='8'"/>
+            <input type="button" value="7" style="height:50px; width:50px; color:#f42d2d" onclick="Kalk.input.value +='7'"/>
+            <input type="button" value="-" style="height:50px; width:50px; color:#f42d2d" onclick="Kalk.input.value +='-'"/><br>
+            <input type="button" value="6" style="height:50px; width:50px" onclick="Kalk.input.value +='6'"/>
+            <input type="button" value="5" style="height:50px; width:50px" onclick="Kalk.input.value +='5'"/>
+            <input type="button" value="4" style="height:50px; width:50px" onclick="Kalk.input.value +='4'"/>
+            <input type="button" value="*" style="height:50px; width:50px" onclick="Kalk.input.value +='*'"/><br>
+            <input type="button" value="3" style="height:50px; width:50px" onclick="Kalk.input.value +='3'"/>
+            <input type="button" value="2" style="height:50px; width:50px" onclick="Kalk.input.value +='2'"/>
+            <input type="button" value="1" style="height:50px; width:50px" onclick="Kalk.input.value +='1'"/>
+            <input type="button" value="/" style="height:50px; width:50px"onclick="Kalk.input.value +='/'"/><br>
+           
+
+        </td>
+
+    </table>
+</form>
+</body>
+</html>
